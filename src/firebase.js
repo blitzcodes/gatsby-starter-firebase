@@ -1,10 +1,10 @@
 const config = {
-  apiKey: 'AIzaSyDjS6tGpqjAaC0aXQAGZMkjssABbZzTgSo',
-  authDomain: 'awesome-bb71b.firebaseapp.com',
-  databaseURL: 'https://awesome-bb71b.firebaseio.com',
-  projectId: 'awesome-bb71b',
-  storageBucket: 'awesome-bb71b.appspot.com',
-  messagingSenderId: '646496200074',
+  apiKey: process.env.FIREBASE_API,
+  authDomain: process.env.FIREBASE_DOAMIN,
+  databaseURL: process.env.FIREBASE_URL,
+  projectId: process.env.FIREBASE_PROJECT,
+  storageBucket: process.env.FIREBASE_STORAGE,
+  messagingSenderId: process.env.FIREBASE_SENDER,
 }
 
 let firebaseCache
